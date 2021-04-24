@@ -1,0 +1,59 @@
+.social-icons {
+    width: 40px;
+    position: fixed;
+    bottom: 0px;
+    right: auto;
+    left: 2%;
+    z-index: 10;
+    color: var(--light-slate);
+}
+.social-icons::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    margin: 0px auto;
+    background-color: gray;
+}
+.social-links{
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    margin:20px auto;
+}
+.email-link{
+    writing-mode: vertical-rl;
+    margin: 20px auto;
+    padding: 10px;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+}
+.personal-email{
+    width: 40px;
+    position: fixed;
+    bottom: 0px;
+    left: auto;
+    right: 2%;
+    z-index: 10;
+    color: var(--light-slate);
+}
+.personal-email::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    margin: 0px auto;
+    background-color: gray
+}
+.icon{
+    font-size:20px;
+    color:#8892B0;
+    margin:12px auto;
+}

@@ -1,0 +1,35 @@
+.project-description {
+    background-color: #112240;
+}
+
+.project-image {
+    position: relative;
+}
+
+.project-image::before {
+    content: '';
+    clear: both;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(17, 34, 64, 0.7);
+}
+
+.core-technologies {
+    position: absolute;
+    bottom: 20px;
+    width:94%;
+    margin:auto;
+}
+
+#projects:hover .project-image::before {
+    transition: all 0.3s ease-in-out;
+    display: none;
+    
+}
+#projects:hover .core-technologies{
+    display: none;
+    transition: all 0.3s ease-in-out;
+}
