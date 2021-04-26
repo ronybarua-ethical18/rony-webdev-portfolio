@@ -11,7 +11,7 @@ const About = () => {
                 <div className="col-md-10 offset-md-1 px-3">
                     <h3 className="heading">About Me</h3>
                     <div className="row no-gutters d-flex justify-content-center">
-                        <div className="col-md-7">
+                        <div className="col-md-7 mb-5">
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus iusto commodi incidunt tempore pariatur consequuntur quae, reiciendis, facilis optio quos nesciunt, sint nihil laboriosam magni hic! Nam quam optio quaerat.</p>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique accusantium deserunt ex id neque doloremque qui nisi dolorem laborum dolore nobis, earum velit, maxime necessitatibus!</p>
                             <p><strong className="title-color">Here are a few technologies I've been working with recently:</strong></p>

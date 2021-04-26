@@ -10,7 +10,7 @@ const Trainings = () => {
                 <div className="col-md-10 offset-md-1 px-3">
                     <h3 className="right-heading">Trainings Attended</h3>
                     <div className="row">
-                        <div className="col-md-5">
+                        <div className="col-md-5 mb-5">
                             <div className="training-image">
                                 <img src={Training} className="img-thumbnail" alt=""/>
                             </div>

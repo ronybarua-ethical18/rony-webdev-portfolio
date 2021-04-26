@@ -4,9 +4,17 @@ import './Home.css';
 import HeaderMain from '../HeaderMain/HeaderMain'
 import HeaderContent from '../HeaderContent/HeaderContent';
 import About from '../About/About';
+import firebase from "firebase/app";
+import "firebase/auth";
 import Trainings from '../Traninings/Trainings';
-import FeaturedProjects from '../FeaturedProjects/FeaturedProjects';
+import FeaturedProjectsData from '../FeaturedProjectsData/FeaturedProjectsData';
+import MentionableProjects from '../MentionableProjects/MentionableProjects';
+import firebaseConfig from '../../../firebase.config'
 const Home = () => {
+    // initialize firebase
+    if(firebase.apps.length === 0){
+        firebase.initializeApp(firebaseConfig)
+    }
     return (
         <div>
             <Navbar collapseOnSelect expand="lg" fixed = 'top' className="mx-4 py-3" id="navbar-bg">
@@ -27,7 +35,8 @@ const Home = () => {
             <HeaderMain></HeaderMain>
             <About></About>
             <Trainings></Trainings>
-            <FeaturedProjects></FeaturedProjects>
+            <FeaturedProjectsData></FeaturedProjectsData>
+            <MentionableProjects></MentionableProjects>
         </div>
     );
 };

@@ -33,3 +33,17 @@
     display: none;
     transition: all 0.3s ease-in-out;
 }
+#order-2{
+    order:2;
+}
+#projectId-2{
+    text-align: left !important;
+}
+#projectList{
+    margin-bottom: 60px;
+}
+#link-2{
+    display:flex;
+    justify-content: left;
+    text-align: center;
+}
