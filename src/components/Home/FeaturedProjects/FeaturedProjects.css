@@ -25,11 +25,8 @@
     background-color: rgba(17, 34, 64, 0.7);
 }
 
-.core-technologies {
-    position: absolute;
-    top: 50%;
-    width:94%;
-    margin:auto;
+.technologies{
+    background-color: #10122E;
 }
 
 #projects:hover .project-image::before {

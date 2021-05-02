@@ -2,13 +2,14 @@
     background-color: #112240;
 }
 .links{
-    background-color: #0A192F;
+    background-color: #0F112D;
 }
 #card-img{
     position:relative;
 }
 #card-img img{
     height:200px;
+    width:100%;
 }
 
 #card-img::before{

@@ -10,10 +10,12 @@ const HeaderContent = () => {
                     <div className="w-100" id="nav-links">
                         <p className="title-color">Hi, my name is</p>
                         <Zoom><h1>Rony Barua.</h1></Zoom>
-                        <Typed className="d-flex" strings={['<h1><span>Jr. Web Developer</span></h1>','<h1><span>I build Web apps</span></h1>']}
-                        typeSpeed={50}
-                        backSpeed={50}
-                        loop />
+                       <div className="who-am-i mt-2">
+                            <Typed className="d-flex" strings={['<h1><span>Jr. Web Developer</span></h1>','<h1><span>I build Web apps</span></h1>']}
+                            typeSpeed={50}
+                            backSpeed={50}
+                            loop />
+                       </div>
                     <p className="bio-title">I have strong knowledge of front-end libraries and familiar with backend frameworks, using modern technologies I can develop dynamic websites for your company and I am 100% confident about my skills.</p>
                     <div className=""><a className="link" href="https://drive.google.com/uc?export=download&id=1qsOodYuTypzRCUSu3HqliUbpS_uZpkX5">Download Resume</a></div>
                 </div>

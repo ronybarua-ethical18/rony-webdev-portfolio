@@ -39,6 +39,12 @@ const FeaturedProjects = (props) => {
                     </div>
                     <div className="project-description p-4 shadow rounded-lg">
                         <p>{projectDesc}</p>
+                        <div className="technologies d-flex flex-wrap justify-content-center py-2">
+                            <small>React JS</small>
+                            <small>Firebase</small>
+                            <small>Express JS</small>
+                            <small>Mongo DB</small>
+                        </div>
                     </div>
                     <div id="nav-links" className="py-2">
                         <a href={liveSite} className=""><FontAwesomeIcon

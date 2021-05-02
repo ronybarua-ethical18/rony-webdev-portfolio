@@ -24,25 +24,27 @@ const Home = () => {
         <div>
 
             <Navbar collapseOnSelect expand="lg" fixed="top" className="mx-4 py-3" id="navbar-bg">
-                <Navbar.Brand href="#home"><h2 className="title-color animation-fade">R<span className="text-white">o</span>ny</h2></Navbar.Brand>
+                <Navbar.Brand href="#home"><h2 className="title-color mr-auto animation-fade">R<span className="text-white">o</span>ny</h2></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="ml-auto" id="nav-links">
-                        <ScrollspyNav
-                            className="scrolling"
-                            scrollTargetIds={["about", "training", "featured", "other", "contact"]}
-                            activeNavClass="is-active"
-                            headerBackground="true"
-                        >
+                <Nav className="ml-auto" id="nav-links">
+                    <ScrollspyNav
+                        className="scrolling"
+                        scrollTargetIds={["about", "training", "featured", "other", "blogs", "contact"]}
+                        activeNavClass="is-active"
+                        headerBackground="true"
+                    >
+                        <Nav className="ml-auto" id="nav-links">
                             <a href="#about">About</a>
                             <a href="#training">Trainings</a>
                             <a href="#featured">Featured Projects</a>
                             <a href="#other">Other Projects</a>
+                            <a href="#blogs">Blogs</a>
                             <a href="#contact">Contact</a>
                             <a href="#contact" className="link">Resume</a>
-                        </ScrollspyNav>
+                        </Nav>
+                    </ScrollspyNav>
                     </Nav>
-                   
                 </Navbar.Collapse>
             </Navbar>
             <Fade bottom>
@@ -54,7 +56,7 @@ const Home = () => {
                 <div id="other"><MentionableProjects></MentionableProjects></div>
                 <div id="blogs"><Blogs></Blogs></div>
                 <div id="contact"><Contact></Contact></div>
-                
+
                 <Footer></Footer>
             </Fade>
         </div>

@@ -16,7 +16,7 @@
     background:#48B9A5;
 }
 .App {
-    background-color: #0A192F;
+    background-color: #10122E;
     width: 100%;
     height: auto;
     overflow: hidden;
@@ -36,13 +36,16 @@ input, textarea{
     color:#CCD6F6 !important;
 }
 small{
-    margin:0 18px;
+    margin:0 10px;
     font-family: 'Fira Code', monospace;
     color: #CCD6F6;
 }
 .main-container {
     width: 98%;
     margin: auto;
+}
+span{
+    margin-bottom: 20px;
 }
 
 .common-margin {
@@ -70,6 +73,7 @@ h1, h2, h3, h4, h5 {
     font-family: 'Fira Sans', sans-serif;
     letter-spacing: 3px;
     font-weight: bold;
+    /* margin-bottom: 20px; */
     line-height: 20px;
     -webkit-font-smoothing: antialiased;
     color: #CCD6F6;
@@ -199,5 +203,13 @@ button {
     100% {
       transform: rotate(1800deg);
     }
+  }
+  @media only screen and (max-width: 592px){
+      h1{
+          font-size: 3rem !important;
+      }
+      .typed-cursor{
+          font-size: 2.5rem !important;
+      }
   }
   

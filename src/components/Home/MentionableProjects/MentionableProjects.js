@@ -79,7 +79,7 @@ const MentionableProjects = () => {
         <div className="main-container">
             <div className="row no-gutters">
                 <div className="col-md-10 offset-md-1 px-3">
-                    <h3 className="heading">Other Mentionable Projects</h3>
+                    <h3 className="heading">Other Projects</h3>
                     <div className="row">
                         {
                             projectsData.map(project => <MentionableProject project={project}></MentionableProject>)

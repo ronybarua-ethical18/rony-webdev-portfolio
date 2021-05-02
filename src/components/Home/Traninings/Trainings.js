@@ -2,7 +2,7 @@ import { faHandPointRight } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './Trainings.css';
-import Training from '../../../images/training.jpg';
+import Training from '../../../images/training.png';
 const Trainings = () => {
     return (
         <div className="Trainings common-margin">
@@ -10,12 +10,12 @@ const Trainings = () => {
                 <div className="col-md-10 offset-md-1 px-3">
                     <h3 className="right-heading">Trainings Attended</h3>
                     <div className="row">
-                        <div className="col-lg-5 col-md-12 col-sm-12 mb-5 ">
+                        <div className="col-lg-6 col-md-12 col-sm-12 mb-5 ">
                             <div className="training-image">
-                                <img src={Training} className="img-thumbnail" alt=""/>
+                                <img src={Training} className="img-fluid" alt=""/>
                             </div>
                         </div>
-                        <div className="col-lg-7 col-md-12 col-sm-12">
+                        <div className="col-lg-6 col-md-12 col-sm-12">
                             <div className="trainings-title">
                                 <h4 className="mb-4">Software Development Trainings</h4>
                                 <div className="d-flex">
