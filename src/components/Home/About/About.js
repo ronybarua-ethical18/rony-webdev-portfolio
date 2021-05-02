@@ -2,7 +2,7 @@ import { faCss3, faHtml5 } from '@fortawesome/free-brands-svg-icons';
 import { faCertificate, faLink } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import profileImg from '../../../images/profileImg.jpg';
+import profileImg from '../../../images/pro.png';
 import './About.css';
 const About = () => {
     return (
@@ -10,19 +10,18 @@ const About = () => {
             <div className="row no-gutters">
                 <div className="col-md-10 offset-md-1 px-3">
                     <h3 className="heading">About Me</h3>
-                    <div className="row no-gutters d-flex justify-content-center">
-                        <div className="col-md-7 mb-5">
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus iusto commodi incidunt tempore pariatur consequuntur quae, reiciendis, facilis optio quos nesciunt, sint nihil laboriosam magni hic! Nam quam optio quaerat.</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique accusantium deserunt ex id neque doloremque qui nisi dolorem laborum dolore nobis, earum velit, maxime necessitatibus!</p>
+                    <div className="row no-gutters d-flex justify-content-center align-items-center">
+                        <div className="col-lg-7 col-md-12 col-sm-12 mb-5">
+                            <p>I enjoy developing applications using modern technologies. My interest in web development started in 2017 and my main focus these days is building an accessible, inclusive, and modern application using a powerful stack.</p>
+                            <p>I am familiar with browser dev tools and debugging and it’s helping me to find out the bugs in an application. I am constantly seeking out new technologies and staying up-to-date on trends to be a professional developer. </p>
                             <p><strong className="title-color">Here are a few technologies I've been working with recently:</strong></p>
                             <div className="technologies d-flex ">
-                                <div className="front-end">
+                                <div className="front-end" id="nav-links">
                                     <p><FontAwesomeIcon className="mr-3 title-color" icon={faCertificate}></FontAwesomeIcon>HTML5</p>
                                     <p><FontAwesomeIcon className="mr-3" icon={faCertificate}></FontAwesomeIcon>CSS3</p>
                                     <p><FontAwesomeIcon className="mr-3 title-color" icon={faCertificate}></FontAwesomeIcon>Bootstrap 4</p>
                                     <p><FontAwesomeIcon className="mr-3" icon={faCertificate}></FontAwesomeIcon>React JS</p>
-
-                                    <button>Download Resume</button>
+                                   <div className="mt-4"> <a className="link" href="https://bit.ly/3xFzoti">View Resume</a></div>
                                 </div>
                                 <div className="back-end">
                                 <p><FontAwesomeIcon className="mr-3" icon={faCertificate}></FontAwesomeIcon>Firebase</p>
@@ -32,8 +31,8 @@ const About = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-5 image-container d-flex justify-content-end">
-                           <div className="profile-image"> <img src={profileImg} id="profileImg" className="img-thumbnail" alt="" /></div>
+                        <div className="col-lg-5 col-md-12 col-sm-12 image-container d-flex justify-content-center">
+                           <div className="profile-image"> <img src={profileImg} id="profileImg" className="img-fluid" alt="" /></div>
                         </div>
                     </div>
                 </div>

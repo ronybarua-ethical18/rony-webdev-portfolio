@@ -1,3 +1,20 @@
 #navbar-bg{
     background-color: #0A192F;
 }
+.scrolling{
+  margin-bottom: 100px;
+}
+.animation-fade{
+  animation:fade 6s infinite ease-in-out;   
+ }
+ @keyframes fade{
+     0%{
+         opacity: 1;
+     }
+     80%{
+      opacity: 0;
+     }
+     100%{
+      opacity: 1;
+     }
+ }

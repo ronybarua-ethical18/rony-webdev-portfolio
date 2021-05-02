@@ -57,3 +57,27 @@
     color:#8892B0;
     margin:12px auto;
 }
+
+.icon:hover{
+    color:#fe0f5d;
+    background-color:#fff;
+    border-radius: 50%;
+    border:2px solid #fff;
+    transition: all 0.3s ease-in-out;
+    font-size: 35px;
+    padding:5px;
+}
+.animation-rotate{
+    animation: rotate 6s infinte ease-in-out;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}

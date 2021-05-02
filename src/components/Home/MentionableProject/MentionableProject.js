@@ -9,19 +9,24 @@ const MentionableProject = (props) => {
         projectDesc,
         projectImg,
         gitHubLink,
+        tech1,
+        tech2,
+        tech3,
         livesite
     } = props.project;
     return (
 
-        <div className="col-md-4 mb-4">
+        <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
             <Card className="w-100 shadow p-3" id="project-bg">
-                <Card.Img variant="top" src={projectImg.sample} />
+                <div id="card-img" className="shadow mb-3">
+                    <img src={projectImg} className="img-fluid rounded-lg" alt="" />
+                </div>
                 <Card.Body className="p-0">
-                    <Card.Title className="mt-2">{projectName}</Card.Title>
+                    <h5 className="mt-2"><b>{projectName}</b></h5>
                     <p>
                         {projectDesc}
                     </p>
-                    <div className="d-flex" id="nav-links">
+                    <div className="d-flex p-2 shadow my-2 links" id="nav-links">
                         <a href={livesite} className="mr-3 p-0"><FontAwesomeIcon
                             icon={faGithub}
                             className="mr-2"
@@ -34,10 +39,9 @@ const MentionableProject = (props) => {
                     </div>
                 </Card.Body>
                 <div className=" p-0 d-flex justify-content-between">
-                    <span>React</span>
-                    <span>Node</span>
-                    <span>Mongodb</span>
-                    <span>Mongodb</span>
+                    <span>{tech1}</span>
+                    <span>{tech2}</span>
+                    <span>{tech3}</span>
                 </div>
             </Card>
         </div>

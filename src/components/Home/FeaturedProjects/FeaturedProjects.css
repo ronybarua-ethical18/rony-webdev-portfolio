@@ -4,6 +4,14 @@
 
 .project-image {
     position: relative;
+    overflow-y:scroll;
+    height:350px;
+}
+.project-image img{
+    background-position: top;
+}
+.project-image img:hover{
+    background-position: bottom;
 }
 
 .project-image::before {
@@ -19,7 +27,7 @@
 
 .core-technologies {
     position: absolute;
-    bottom: 20px;
+    top: 50%;
     width:94%;
     margin:auto;
 }
@@ -33,10 +41,10 @@
     display: none;
     transition: all 0.3s ease-in-out;
 }
-#order-2{
+#order-2, #order-4{
     order:2;
 }
-#projectId-2{
+#projectId-2, #projectId-4{
     text-align: left !important;
 }
 #projectList{
@@ -46,4 +54,18 @@
     display:flex;
     justify-content: left;
     text-align: center;
+}
+.box{
+   transition: ease-in-out 8s;
+   height :300px;
+   width:100%;
+   background-position: top;
+}
+.box.box1{
+    background:url('../../../images/bpl.png');
+    z-index:10000;
+    background-size: cover;
+}
+.box:hover{
+    background-position: bottom;
 }

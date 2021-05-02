@@ -8,11 +8,12 @@ const Navbar = () => {
             <div className="social-icons">
                 <div className="icons">
                     <div className="social-links">
-                        <FontAwesomeIcon className="icon" icon={faGithub}></FontAwesomeIcon>
-                        <FontAwesomeIcon className="icon" icon={faLinkedin}></FontAwesomeIcon>
-                        <FontAwesomeIcon className="icon" icon={faFacebook}></FontAwesomeIcon>
-                        <FontAwesomeIcon className="icon" icon={faInstagram}></FontAwesomeIcon>
-                        <FontAwesomeIcon className="icon" icon={faGoogle}></FontAwesomeIcon>
+                        <a href="https://github.com/ronybarua-ethical18">
+                            <FontAwesomeIcon className="icon animation-rotate" icon={faGithub}></FontAwesomeIcon></a>
+                        <a href="https://www.linkedin.com/in/rony-barua/"><FontAwesomeIcon className="icon animation-rotate" icon={faLinkedin}></FontAwesomeIcon></a>
+                        <a href="https://www.facebook.com/ronybarua.cmt/"><FontAwesomeIcon className="icon animation-rotate" icon={faFacebook}></FontAwesomeIcon></a>
+                        <a href="https://www.instagram.com/rony_thesk/"><FontAwesomeIcon className="icon animation-rotate" icon={faInstagram}></FontAwesomeIcon></a>
+                        <a href="/"><FontAwesomeIcon className="icon animation-rotate" icon={faGoogle}></FontAwesomeIcon></a>
                     </div>
                 </div>
             </div>

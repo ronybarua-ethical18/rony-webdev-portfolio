@@ -10,12 +10,12 @@ const Trainings = () => {
                 <div className="col-md-10 offset-md-1 px-3">
                     <h3 className="right-heading">Trainings Attended</h3>
                     <div className="row">
-                        <div className="col-md-5 mb-5">
+                        <div className="col-lg-5 col-md-12 col-sm-12 mb-5 ">
                             <div className="training-image">
                                 <img src={Training} className="img-thumbnail" alt=""/>
                             </div>
                         </div>
-                        <div className="col-md-7">
+                        <div className="col-lg-7 col-md-12 col-sm-12">
                             <div className="trainings-title">
                                 <h4 className="mb-4">Software Development Trainings</h4>
                                 <div className="d-flex">
@@ -34,10 +34,6 @@ const Trainings = () => {
                                 <div className="d-flex">
                                     <FontAwesomeIcon className="mr-3 title-color" icon={faHandPointRight}></FontAwesomeIcon>
                                     <p>Attended classes of <span className="title-color">.NET Program with C#</span> from Desh IT in 2014.</p>
-                                </div>
-                                <div className="d-flex">
-                                    <FontAwesomeIcon className="mr-3 title-color" icon={faHandPointRight}></FontAwesomeIcon>
-                                    <p>Attended 5 days training course on <span className="title-color">Mobile Application Development</span> at Cox’s Bazar international university in 2012.</p>
                                 </div>
                             </div>
                         </div>
