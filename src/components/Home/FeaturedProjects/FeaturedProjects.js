@@ -46,7 +46,7 @@ const FeaturedProjects = (props) => {
                             <small>Mongo DB</small>
                         </div>
                     </div>
-                    <div id="nav-links" className="py-2">
+                    <div id="nav-links" className="py-2 d-flex flex-wrap justify-content-center">
                         <a href={liveSite} className=""><FontAwesomeIcon
                             icon={faGithub}
                             className="mr-2"

@@ -10,7 +10,7 @@ const HeaderContent = () => {
                     <div className="w-100" id="nav-links">
                         <p className="title-color">Hi, my name is</p>
                         <Zoom><h1>Rony Barua.</h1></Zoom>
-                        <h1><span>Jr. Web Developer</span></h1>
+                        <h1><span>Jr. React Developer</span></h1>
                        {/* <div className="who-am-i">
                             <Typed className="d-flex" strings={['<h1><span>Jr. Web Developer</span></h1>','<h1><span>I build Web apps</span></h1>']}
                             typeSpeed={50}
