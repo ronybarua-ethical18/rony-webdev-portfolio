@@ -6,15 +6,21 @@
     padding: 0;
     scroll-behavior: smooth;
 }
+:root{
+    scrollbar-color: rgb(17, 34, 64) !important;
+    scrollbar-width: thin !important;
+    border-radius: 8px;;
+    overflow-y: scroll;
+  }
 ::-webkit-scrollbar{
-    width:12px;
+    width:10px;
 }
 ::-webkit-scrollbar-thumb{
     background:rgb(17, 34, 64);
     border-radius: 8px;;
 }
 ::-webkit-scrollbar-thumb:hover{
-    background:#48B9A5;
+    background:#10122E;
 }
 .App {
     background-color: #10122E;

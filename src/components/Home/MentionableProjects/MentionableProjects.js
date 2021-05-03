@@ -54,7 +54,7 @@ const MentionableProjects = () => {
         },
         {
             projectID: 5,
-            projectName: 'Hungry Food Monster Website With Rest Api',
+            projectName: 'Hungry Food Monster With Rest Api',
             projectDesc: 'Hungry Food Monster is developed using REST API, the api is all about restaurant food service, where people can checkout their favorite foods such as breakfast, lunch and dinner etc. through this app.  ',
             projectImg: Food,
             tech1: 'HTML5',

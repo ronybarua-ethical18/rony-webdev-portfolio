@@ -16,7 +16,7 @@ const MentionableProject = (props) => {
     } = props.project;
     return (
 
-        <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div className="col-lg-6 col-md-6 col-sm-12 mb-4" id="others">
             <Card className="w-100 shadow p-3" id="project-bg">
                 <div id="card-img" className="shadow mb-3">
                     <img src={projectImg} className="img-fluid rounded-lg" alt="" />
@@ -30,8 +30,7 @@ const MentionableProject = (props) => {
                         <a href={livesite} className="mr-3 p-0"><FontAwesomeIcon
                             icon={faGithub}
                             className="mr-2"
-                        ></FontAwesomeIcon>Live
-                                     site link</a>
+                        ></FontAwesomeIcon>Live link</a>
                         <a href={gitHubLink} className="p-0"><FontAwesomeIcon
                             icon={faGithub}
                             className="mr-2 p-0"

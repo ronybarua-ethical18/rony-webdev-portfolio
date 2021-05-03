@@ -8,7 +8,7 @@ const Trainings = () => {
         <div className="Trainings common-margin">
             <div className="row no-gutters">
                 <div className="col-md-10 offset-md-1 px-3">
-                    <h3 className="right-heading">Trainings Attended</h3>
+                    <h3 className="right-heading">Trainings</h3>
                     <div className="row">
                         <div className="col-lg-6 col-md-12 col-sm-12 mb-5 ">
                             <div className="training-image">

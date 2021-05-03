@@ -1,6 +1,9 @@
 #project-bg{
     background-color: #112240;
 }
+#project-bg, #others{
+    height:100%;
+}
 .links{
     background-color: #0F112D;
 }
