@@ -65,7 +65,7 @@ const MentionableProjects = () => {
         },
         {
             projectID: 6,
-            projectName: 'Cruise Queen JavaScript Booking Cart',
+            projectName: 'Cruise Queen Booking Cart',
             projectDesc: 'Using the app people can book their tickets and after selecting the number of tickets the user can see the total price and other essential info by clicking on book now button.',
             projectImg: cruise,
             tech1: 'HTML5',

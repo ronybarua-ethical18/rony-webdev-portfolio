@@ -5,15 +5,9 @@
 .project-image {
     position: relative;
     overflow-y:scroll;
+    transition: all 0.3s ease in out;
     height:350px;
 }
-.project-image img{
-    background-position: top;
-}
-.project-image img:hover{
-    background-position: bottom;
-}
-
 .project-image::before {
     content: '';
     clear: both;
@@ -22,6 +16,7 @@
     height: 100%;
     top: 0;
     left: 0;
+    bottom:0;
     background-color: rgba(17, 34, 64, 0.7);
 }
 
