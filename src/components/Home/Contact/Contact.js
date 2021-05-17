@@ -12,13 +12,13 @@ const Contact = () => {
                     <Form action="https://formcarry.com/s/oGBqmZS9Spy" method="POST" accept-charset="UTF-8" className="shadow p-3">
                         <Row id="contact-form" className="my-4">
                             <Col>
-                               <input name="name" type="text" placeholder="Name" className="form-control"/>
+                               <input name="name" type="text" placeholder="Name" className="form-control" required/>
                             </Col>
                             <Col>
-                                <input name="email" type="text" placeholder="Email"  className="form-control"/>
+                                <input name="email" type="text" placeholder="Email"  className="form-control" required/>
                             </Col>
                         </Row>
-                        <textarea name="message" className="w-100 mb-3" placeholder="Write to me" id="" cols="30" rows="8"></textarea>
+                        <textarea name="message" className="w-100 mb-3" placeholder="Write to me" id="" cols="30" rows="8" required></textarea>
                         <button type="submit">Send mail</button>
                     </Form>
                 </div>
