@@ -4,6 +4,7 @@ import City from '../../../images/city.png';
 import Users from '../../../images/users.png';
 import Food from '../../../images/food-monster.png';
 import Favison from '../../../images/favison.png';
+import Soccer from '../../../images/soccer.png';
 import cruise from '../../../images/cruise.png';
 import MentionableProject from '../MentionableProject/MentionableProject';
 const MentionableProjects = () => {
@@ -73,6 +74,17 @@ const MentionableProjects = () => {
             tech3: 'JavaScript',
             gitHubLink: 'https://github.com/ronybarua-ethical18/cruise-queen-javascript-project',
             livesite: 'https://ronybarua-ethical18.github.io/cruise-queen-javascript-project/'
+        },
+        {
+            projectId: 7,
+            projectName: "Soccer Team Tracker With Rest API",
+            projectDesc: "This is a cool react app named soccer team tracker. The app provides some international football leagues or teams information where you guys can track individual team info like team logo, team banner, team name and so on. The project is created only for skill developing or practice purpose.",
+            projectImg: Soccer,
+            tech1: 'Rest API',
+            tech2: 'React Boostrap',
+            tech3: 'React JS',
+            gitHubLink: 'https://github.com/ronybarua-ethical18/soccer-team-tracker',
+            livesite: 'https://soccer-team-tracker.netlify.app/'
         }
     ]
     return (

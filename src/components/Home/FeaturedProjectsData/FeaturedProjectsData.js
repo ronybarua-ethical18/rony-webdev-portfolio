@@ -2,8 +2,8 @@ import React from 'react';
 import Books from '../../../images/book-train.png'
 import Painting from '../../../images/Painting.png'
 import Onion from '../../../images/restaurant.png';
-import Soccer from '../../../images/soccer.png';
 import BPL from '../../../images/bpl.png';
+import Redux from '../../../images/Redux.png';
 import FeaturedProjects from '../FeaturedProjects/FeaturedProjects';
 const FeaturedProjectsData = () => {
     const projectsData = [
@@ -36,12 +36,12 @@ const FeaturedProjectsData = () => {
         },
         {
             projectId: 4,
-            projectName: "Soccer Team Tracker With Rest API",
-            projectDesc: "  This is a cool react app named soccer team tracker. The app provides some international football leagues or teams information where you guys can track individual team info like team logo, team banner, team name and so on. The project is created only for skill developing or practice purpose.",
-            projectImg: Soccer,
-            clientCode: 'https://github.com/ronybarua-ethical18/soccer-team-tracker',
-            serverCode: 'https://github.com/ronybarua-ethical18/soccer-team-tracker',
-            liveSite: 'https://soccer-team-tracker.netlify.app/'
+            projectName: "Trusty Furniture React App with Redux",
+            projectDesc: "Trusty furniture is a simple ecommerce web application where  people can purchase various kinds of furniture like table,  chair, sofa and so on. The website is fully responsive.  People can easily add product to cart and see their ordered  products with the total price.",
+            projectImg: Redux,
+            clientCode: 'https://github.com/ronybarua-ethical18/trusty-furniture-team-project/',
+            serverCode: 'https://github.com/ronybarua-ethical18/trusty-furniture-team-project/',
+            liveSite: 'https://trusty-furniture.web.app/'
         },
         {
             projectId: 5,
