@@ -21,13 +21,6 @@ const FeaturedProjects = (props) => {
                         <img src={projectImg} className="img-fluid img-responsive rounded-lg" alt="" />
                     </div>
                     <div id={`projectId-${projectId}`} className="core-technologies text-left">
-                        {/* <h4 className="ml-3 title-color">Core Technologies</h4>
-                        <div className="technologies d-flex">
-                            <small>React JS</small>
-                            <small>Firebase</small>
-                            <small>Express JS</small>
-                            <small>Mongo DB</small>
-                        </div> */}
                     </div>
                 </div>
             </div>

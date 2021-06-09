@@ -19,8 +19,12 @@ const MentionableProject = (props) => {
         <div className="col-lg-6 col-md-6 col-sm-12 mb-4 w-100 h-100" id="others">
             <CardDeck>
                 <Card className="w-100 shadow p-3 h-100" id="project-bg">
-                    <div id="card-img" className="shadow mb-3">
-                        <img src={projectImg} className="img-fluid rounded-lg" alt="" />
+                    <div id="projects" className="shadow mb-3">
+                        <div className="project-image">
+                            <div>
+                                <img src={projectImg} className="img-fluid rounded-lg" alt="" />
+                            </div>
+                        </div>
                     </div>
                     <Card.Body className="p-0">
                         <h5 className="mt-2"><b>{projectName}</b></h5>

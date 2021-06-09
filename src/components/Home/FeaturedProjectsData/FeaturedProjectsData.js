@@ -2,8 +2,6 @@ import React from 'react';
 import Books from '../../../images/book-train.png'
 import Painting from '../../../images/Painting.png'
 import Onion from '../../../images/restaurant.png';
-import BPL from '../../../images/bpl.png';
-import Redux from '../../../images/Redux.png';
 import FeaturedProjects from '../FeaturedProjects/FeaturedProjects';
 const FeaturedProjectsData = () => {
     const projectsData = [
@@ -33,24 +31,6 @@ const FeaturedProjectsData = () => {
             clientCode: 'https://github.com/ronybarua-ethical18/hot-onion-restaurant-client',
             serverCode: 'https://github.com/ronybarua-ethical18/hot-onion-restaurant-server',
             liveSite: 'https://red-onion-restaurant-fullstack.web.app/'
-        },
-        {
-            projectId: 4,
-            projectName: "Trusty Furniture React App with Redux",
-            projectDesc: "Trusty furniture is a simple ecommerce web application where  people can purchase various kinds of furniture like table,  chair, sofa and so on. The website is fully responsive.  People can easily add product to cart and see their ordered  products with the total price.",
-            projectImg: Redux,
-            clientCode: 'https://github.com/ronybarua-ethical18/trusty-furniture-team-project/',
-            serverCode: 'https://github.com/ronybarua-ethical18/trusty-furniture-team-project/',
-            liveSite: 'https://trusty-furniture.web.app/'
-        },
-        {
-            projectId: 5,
-            projectName: "BPL Player Selection",
-            projectDesc: "The app is a simple demonstration of selecting player for premiere league, according to their auction. The league can be football or cricket, in this app people can add their favorite player to their team where player will be selected only one time that means one player can not be selected for the second time.",
-            projectImg: BPL,
-            clientCode: 'https://github.com/ronybarua-ethical18/bpl-player-selection',
-            serverCode: 'https://github.com/ronybarua-ethical18/bpl-player-selection',
-            liveSite: 'https://bpl-players-selection.netlify.app/'
         }
     ]
     return (
