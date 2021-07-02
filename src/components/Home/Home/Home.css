@@ -1,6 +1,9 @@
 #navbar-bg{
     background-color: #10122E;
 }
+#anchor{
+  cursor:pointer;
+}
 .scrolling{
   margin-top: 100px !important;
 }
