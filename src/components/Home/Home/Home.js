@@ -25,16 +25,18 @@ const Home = () => {
             <Navbar collapseOnSelect expand="lg" fixed="top" className="mx-4 py-3" id="navbar-bg">
                 <Navbar.Brand href="#home" onClick={() => scroll.scrollToTop()}><h2 className="title-color mr-auto animation-fade">R<span className="text-white">o</span>ny</h2></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="ml-auto" id="nav-links">
-                            <Nav className="ml-auto" id="nav-links">
-                                <Link id="anchor" smooth={true} offset={-150} duration={1000} to="about">About</Link>
-                                <Link id="anchor" smooth={true} offset={-150} duration={1000} to="training">Trainings</Link>
-                                <Link id="anchor" smooth={true} offset={-150} duration={1000} to="featured">Featured Projects</Link>
-                                <Link id="anchor" smooth={true} offset={-150} duration={1000} to="other">Other Projects</Link>
-                                <Link id="anchor" smooth={true} offset={-150} duration={1000} to="blogs">Blogs</Link>
-                                <Link id="anchor" smooth={true} offset={-150} duration={1000} to="contact">Contact</Link>
-                            </Nav>
+                <Navbar.Collapse id="responsive-navbar-nav" className="">
+                    <Nav className="ml-auto d-flex align-items-center" id="nav-links">
+                            <div>
+                                <Nav className="ml-auto" id="nav-links">
+                                    <Link id="anchor" smooth={true} offset={-150} duration={1000} to="about">About</Link>
+                                    <Link id="anchor" smooth={true} offset={-150} duration={1000} to="training">Trainings</Link>
+                                    <Link id="anchor" smooth={true} offset={-150} duration={1000} to="featured">Featured Projects</Link>
+                                    <Link id="anchor" smooth={true} offset={-150} duration={1000} to="other">Other Projects</Link>
+                                    <Link id="anchor" smooth={true} offset={-150} duration={1000} to="blogs">Blogs</Link>
+                                    <Link id="anchor" smooth={true} offset={-150} duration={1000} to="contact">Contact</Link>
+                                </Nav>
+                            </div>
                         <div><a href="https://bit.ly/3xFzoti" className="link">Resume</a></div>
                     </Nav>
                 </Navbar.Collapse>
