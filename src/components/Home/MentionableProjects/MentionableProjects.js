@@ -26,7 +26,7 @@ const MentionableProjects = () => {
         {
             projectId: 2,
             projectName: "Trusty Furniture React App with Redux",
-            projectDesc: "Simple ecommerce app  where people can purchase various kinds of furniture like table,  chair, sofa and so on. People can easily add product to cart and see their ordered  products with the total price.",
+            projectDesc: "People can purchase various kinds of furniture like table,  chair, sofa etc. People can easily add product to cart and see their ordered  products with the total price.",
             tech1: 'Redux',
             tech2: 'React JS',
             tech3: 'React Router',

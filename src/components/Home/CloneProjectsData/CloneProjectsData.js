@@ -7,7 +7,7 @@ const CloneProjectsData = () => {
   const fakeData = [
     {
       id: 1,
-      name: "Bioskop Streaming App",
+      name: "Bioskop Streaming",
       img: hulu,
       tech1: "Tailwind CSS",
       tech2: "Next JS",
@@ -28,7 +28,7 @@ const CloneProjectsData = () => {
     },
     {
       id: 3,
-      name: "React Admin Dashboard",
+      name: "Admin Dashboard",
       img: dashboard,
       tech1: "React JS",
       tech2: "Material UI",
