@@ -34,21 +34,21 @@ const FeaturedProjects = (props) => {
                         <p>{projectDesc}</p>
                         <div className="technologies d-flex flex-wrap justify-content-center py-2">
                             <small>React JS</small>
-                            <small>Firebase</small>
+                            {projectId === 1 ? <small>Stripe</small> : projectId === 3 ? <small>Redux</small>: <small>Firebase</small>}
                             <small>Express JS</small>
                             <small>Mongo DB</small>
                         </div>
                     </div>
                     <div id="nav-links" className="py-2 d-flex flex-wrap justify-content-center">
-                        <a href={liveSite} className=""><FontAwesomeIcon
+                        <a target="_blank" rel="noreferrer" href={liveSite} className=""><FontAwesomeIcon
                             icon={faGithub}
                             className="mr-2"
                         ></FontAwesomeIcon>Live</a>
-                        <a href={clientCode}><FontAwesomeIcon
+                        <a target="_blank" rel="noreferrer" href={clientCode}><FontAwesomeIcon
                             icon={faGithub}
                             className="mr-2"
                         ></FontAwesomeIcon>Client code</a>
-                        <a href={serverCode}><FontAwesomeIcon
+                        <a target="_blank" rel="noreferrer" href={serverCode}><FontAwesomeIcon
                             icon={faGithub}
                             className="mr-2"
                         ></FontAwesomeIcon>Server code</a>

@@ -20,6 +20,10 @@ const Trainings = () => {
                                 <h4 className="mb-4">Software Development Trainings</h4>
                                 <div className="d-flex">
                                     <FontAwesomeIcon className="mr-3 title-color" icon={faHandPointRight}></FontAwesomeIcon>
+                                    <p>I have successfully completed <span className="title-color">Complete Web Development</span> course from Programming Hero on June 2021.</p>
+                                </div>
+                                <div className="d-flex">
+                                    <FontAwesomeIcon className="mr-3 title-color" icon={faHandPointRight}></FontAwesomeIcon>
                                     <p>I have successfully completed <span className="title-color">Javascript Algorithms and Data Structure Certification</span> course from freecodecamp.org on 2021. Now i am confident about javascript core concepts  and basic data structures and algorithms.</p>
                                 </div>
                                 <div className="d-flex">

@@ -17,22 +17,22 @@ const About = () => {
                             <p><strong className="title-color">Here are a few technologies I've been working with recently:</strong></p>
                             <div className="technologies d-flex mb-3">
                                 <div className="front-end mr-3" id="nav-links">
-                                    <p><FontAwesomeIcon className="mr-3 title-color" icon={faCertificate}></FontAwesomeIcon>Tailwind CSS</p>
-                                    <p><FontAwesomeIcon className="mr-3" icon={faCertificate}></FontAwesomeIcon>React JS</p>
-                                    <p><FontAwesomeIcon className="mr-3 title-color" icon={faCertificate}></FontAwesomeIcon>Firebase</p>
+                                    <p><FontAwesomeIcon className="mr-3 title-color" icon={faCertificate}></FontAwesomeIcon>Next JS</p>
+                                    <p><FontAwesomeIcon className="mr-3" icon={faCertificate}></FontAwesomeIcon>Tailwind CSS</p>
+                                    <p><FontAwesomeIcon className="mr-3 title-color" icon={faCertificate}></FontAwesomeIcon>TypeScript</p>
                                     <p><FontAwesomeIcon className="mr-3" icon={faCertificate}></FontAwesomeIcon>Redux</p>
-                                    <p><FontAwesomeIcon className="mr-3 title-color" icon={faCertificate}></FontAwesomeIcon>WebPack</p>
+                                    <p><FontAwesomeIcon className="mr-3 title-color" icon={faCertificate}></FontAwesomeIcon>Material UI</p>
                                    
                                 </div>
                                 <div className="back-end">
-                                    <p><FontAwesomeIcon className="mr-3" icon={faCertificate}></FontAwesomeIcon>React Native</p>
+                                    <p><FontAwesomeIcon className="mr-3" icon={faCertificate}></FontAwesomeIcon>Mongoose</p>
                                     <p><FontAwesomeIcon className="mr-3 title-color" icon={faCertificate}></FontAwesomeIcon>NodeJS</p>
                                     <p><FontAwesomeIcon className="mr-3" icon={faCertificate}></FontAwesomeIcon>Express JS</p>
-                                    <p><FontAwesomeIcon className="mr-3 title-color" icon={faCertificate}></FontAwesomeIcon>MongoDB</p>
+                                    <p><FontAwesomeIcon className="mr-3 title-color" icon={faCertificate}></FontAwesomeIcon>Socket IO</p>
                                     <p><FontAwesomeIcon className="mr-3" icon={faCertificate}></FontAwesomeIcon>GraphQL</p>
                                 </div>
                             </div>
-                            <div className="mt-4"> <a className="link" href="https://bit.ly/3xFzoti">View Resume</a></div>
+                            <div className="mt-4"> <a className="link" href="https://drive.google.com/file/d/1UKfLI2xeaz16Y0RzQrYV-3rcGXdhhTB0/view?usp=sharing">View Resume</a></div>
                         </div>
                         <div className="col-lg-5 col-md-12 col-sm-12 image-container d-flex justify-content-center">
                            <div className="profile-image"> <img src={profileImg} id="profileImg" className="img-fluid" alt="" /></div>

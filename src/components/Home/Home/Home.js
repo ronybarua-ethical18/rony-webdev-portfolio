@@ -15,6 +15,7 @@ import firebaseConfig from '../../../firebase.config'
 import Contact from '../Contact/Contact';
 import Footer from '../Footer/Footer';
 import Blogs from '../Blogs/Blogs';
+import CloneProjectsData from '../CloneProjectsData/CloneProjectsData';
 const Home = () => {
     // initialize firebase
     if (firebase.apps.length === 0) {
@@ -37,7 +38,7 @@ const Home = () => {
                                     <Link id="anchor" smooth={true} offset={-150} duration={1000} to="contact">Contact</Link>
                                 </Nav>
                             </div>
-                        <div><a href="https://bit.ly/3xFzoti" className="link">Resume</a></div>
+                        <div><a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1UKfLI2xeaz16Y0RzQrYV-3rcGXdhhTB0/view?usp=sharing" className="link">Resume</a></div>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
@@ -47,6 +48,7 @@ const Home = () => {
             <div id="training"><Trainings></Trainings></div>
             <div id="featured"><FeaturedProjectsData></FeaturedProjectsData></div>
             <div id="other"><MentionableProjects></MentionableProjects></div>
+            <div id="other"><CloneProjectsData></CloneProjectsData></div>
             <div id="blogs"><Blogs></Blogs></div>
             <div id="contact"><Contact></Contact></div>
             <Footer></Footer>
